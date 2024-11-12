@@ -33,10 +33,6 @@ class Queue {
   // adds the element to the queue
   enqueue(value) {
     let newNode = new ListNode(value);
-    // if (!this.tail) {
-    //   this.tail.next = newNode;
-    // }
-    // this.tail = newNode;
     if (!this.head) {
       this.head = newNode;
     }
